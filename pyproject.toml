@@ -1,0 +1,23 @@
+[project]
+name = "pyteomics_mcp"
+version = "0.1.0"
+description = "MCP server for proteomics analysis using Pyteomics"
+authors = [{ name = "Bang" }]
+requires-python = ">=3.10"
+
+dependencies = [
+    "pyteomics",
+    "pandas",
+    "numpy",
+    "scipy",
+    "matplotlib",
+    "gseapy",
+    "mcp",
+    "uvicorn",
+]
+
+[tool.setuptools]
+packages = ["tools"]
+
+[tool.uv.workspace]
+members = ["mcp"]

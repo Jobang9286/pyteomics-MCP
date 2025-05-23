@@ -1,0 +1,9 @@
+pyteomics
+pandas
+scipy
+numpy
+matplotlib
+gseapy
+mcp
+lxml
+uvicorn
